@@ -83,6 +83,7 @@ p {
 function decide()
 {
 uname = document.getElementById("gname").value;
+uname = uname.toLowerCase(); 
 	if (uname.indexOf("as") !=-1) {
     alert("House Targaryen");
 }
@@ -145,7 +146,7 @@ uname = document.getElementById("gname").value;
 }
 	else
 {
-	alert("Wildling");
+	alert(" Wildling !");
 }
 }
 
